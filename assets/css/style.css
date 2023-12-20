@@ -75,12 +75,16 @@ nav {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  background-color: bisque;
+  max-width: 250px;
+  padding: 2% 0;
+  border-radius: 40px;
 }
 nav img {
   width: 50px;
 }
 nav div {
-  width: 130px;
+  width: 90px;
   background-color: rgb(233, 201, 98);
   display: flex;
   justify-content: center;
@@ -97,7 +101,7 @@ nav div {
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  width: 250px;
+  width: 180px;
   font-size: 120%;
   order: 1;
 }
